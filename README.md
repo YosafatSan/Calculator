@@ -1,7 +1,7 @@
 # Calculator
 Ingage Work
 
-#Starting
+# Starting
 
 Install Java
 https://www.java.com/es/download/
@@ -9,7 +9,7 @@ https://www.java.com/es/download/
 Clone this repo
 git@github.com:YosafatSan/Calculator.git
 
-#Make it work
+# Make it work
 - Go to the terminal
 - Go to the folder where you clone the repo
 - Type the following lines:
