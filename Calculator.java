@@ -21,9 +21,23 @@ public class Calculator{
         }
     }
 
+    public static  class ICalculator2 extends ICalculator{
+        public void Suma(int a, int b){
+            System.out.println("La suma es: " + (a+b));
+        }
+        public void Resta(int a, int b){
+            System.out.println("La resta es: " + (a-b));
+        }
+        public void Fibo(){
+            System.out.println("Fibbonacci de 10" + super.CalcFibonacci(20));
+        }
+    }
 
     public static void main(String []arg){
         ICalculator Calc = new ICalculator();
         Calc.Fibo();
+
+        ICalculator2 Calc2 = new ICalculator2();
+        Calc2.Fibo();
     }
 }
